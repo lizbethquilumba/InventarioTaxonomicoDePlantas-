@@ -18,6 +18,7 @@ class CConexion
         }
         ///
 /// es un comentario 
+// comentario 2
 
         return $conn;
     }
