@@ -14,7 +14,9 @@ class CConexion {
        } catch (PDOException $e) {
            echo ("No se puede conectar a la base de datos, $e ");
        }
+       ///
 
+       
        return $conn;
    }
 }
